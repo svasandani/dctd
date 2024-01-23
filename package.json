@@ -1,0 +1,24 @@
+{
+  "name": "dctd",
+  "version": "1.0.0",
+  "description": "Daily reminder to donate",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "tweet": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svasandani/dctd.git"
+  },
+  "author": "Shailesh Vasandani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svasandani/dctd/issues"
+  },
+  "homepage": "https://github.com/svasandani/dctd#readme",
+  "dependencies": {
+    "dotenv": "^16.3.2",
+    "twitter-api-v2": "^1.16.0"
+  }
+}
